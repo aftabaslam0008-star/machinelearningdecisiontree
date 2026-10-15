@@ -1,0 +1,48 @@
+LAB 04 — DECISION TREE
+
+TASK 1: TITANIC SURVIVAL PREDICTION
+Objective:
+Build a Decision Tree Classifier to predict whether a passenger survived.
+
+Features used:
+Pclass, Sex, Age, SibSp, Parch, Fare, Embarked
+
+Target:
+Survived
+
+Steps:
+1. Load Titanic train.csv.
+2. Select relevant features.
+3. Handle missing values.
+4. Convert categorical values into numbers.
+5. Split data into training and testing sets.
+6. Train Decision Tree Classifier.
+7. Predict test data.
+8. Calculate accuracy.
+9. Display classification report and confusion matrix.
+10. Visualize the decision tree.
+
+TASK 2: CAR SAFETY PREDICTION
+Objective:
+Build a Decision Tree Classifier to predict the safety/evaluation class of a car.
+
+Features:
+buying, maint, doors, persons, lug_boot, safety
+
+Target:
+class
+
+Steps:
+1. Load UCI Car Evaluation dataset.
+2. Encode categorical data.
+3. Split dataset.
+4. Train Decision Tree.
+5. Predict test data.
+6. Calculate accuracy.
+7. Display classification report and confusion matrix.
+8. Visualize the tree.
+
+CONCLUSION:
+Decision Tree is a supervised learning algorithm that uses decision rules to classify data.
+The tree contains a root node, decision nodes, branches and leaf nodes.
+Using max_depth helps reduce overfitting and makes the tree easier to understand.
